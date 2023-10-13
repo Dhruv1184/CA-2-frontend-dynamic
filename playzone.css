@@ -6,9 +6,10 @@ body{
     background-image: url("./assets/background-img.jpeg");
     background-size: 100% 100%;
     margin-top: -20;
+    
     background-repeat: no-repeat;
-    height: 650px;
-    overflow: hidden;
+    /* height: 650px; */
+    /* overflow: hidden; */
 }
 .time{
     border: 1px solid black;

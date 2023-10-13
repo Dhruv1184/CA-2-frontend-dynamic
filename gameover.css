@@ -6,7 +6,8 @@ body{
     background-image: url("./assets/background-img.jpeg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    overflow: hidden;
+    /* overflow: hidden; */
+
 }
 .gameover{
     text-align: center;
