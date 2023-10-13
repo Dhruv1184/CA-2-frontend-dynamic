@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url("./assets/background-img.jpeg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.gameover{
+    text-align: center;
+    letter-spacing: 10px;
+    font-family: 'Faster One', cursive;
+    font-size: 100px;
+    color: yellow;
+    stroke: black;
+    margin-top: 80px;
+}
+.finalscore{
+    font-size: 80px;
+    color: yellow;
+    /* position: absolute; */
+    text-align: center;
+    /* top: 200px; */
+    margin-top: 60px;
+}
+.finaltime{
+    font-size: 70px;
+    color: yellow;
+    text-align: center;
+    margin-top: 40px;
+}
+#playagainbtn , #homebtn{
+    justify-content: space-around;
+
+    font-size: 30px;
+    margin: 150px 150px 100px 250px;
+    text-align: center;
+    padding: 20px;
+    cursor: pointer;
+}
+button{
+    background-color: blue;
+    color: yellow;
+    border-radius: 10px;
+}
+.btn{
+    margin-left: 100px; 
+}

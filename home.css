@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url("./assets/background-img.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.header{
+    display: flex;
+    margin: 30px 0 300px 300px;
+}
+.logo{
+    height: 200px;
+    width: 200px;
+    margin: 25px;
+    position: relative;
+}
+.gamename{
+    font-size: 100px;
+    color: yellow;
+    font-family: 'faster one';
+    text-shadow: 2px 2px 2px 2px ;
+    letter-spacing: 20px;
+    margin: 10px;
+}
+.insertname{
+    position: absolute;
+    bottom: 200px;
+    font-size: 50px;
+    color: rgb(251, 255, 10);
+    margin-left: 250px;
+}
+input{
+    font-size: 40px;
+    
+}
+#enter{
+    color: yellow;
+    background-color:blue ;
+    font-size: 30px;
+    padding: 6px;
+    cursor: pointer;
+}
+#playbtn{
+    background-color: blue;
+    color: yellow;
+    text-align: center;
+    width: 250px;
+    border-radius: 10px;
+    margin-left: 400px;
+    font-size: 30px;
+    cursor: pointer;
+}
+#info{
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    font-size: 50px;
+    color: yellow;
+    text-align: center;
+    border-radius: 20px;
+    margin:20px 60px;
+    cursor: pointer;
+    padding: 5px;
+}
+.footer{
+    display: flex;
+}
+#yourname{
+    background-color: rgba(15, 37, 238, 0);
+    color: yellow;
+    border: 0px solid black;
+}
+#nickname{
+    background-color: rgba(0, 0, 0, 0);
+    color: yellow;
+    border: 0px solid black;
+}
